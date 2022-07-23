@@ -1,18 +1,61 @@
-<!DOCTYPE html>
-<html lang = "en">
-<head>
-	<meta charset="UTF-8">
-	<title>김동휘 계약서</title>
-</head>
-<body>
-	<h1>계약서</h1>
-	<p>본 계약서는 법적 효과가 있는 계약서 입니다.</p>
-	<ol>
-		<li>나현성의 말은 항상 믿는다</li>
-		<li>나현성을 으심하지 않는다</li>
-		<li>나현성을 때리지 않는다</li>
-	</ol>
-	<p>위 명시 사항을 어기 시에는 나현성한테 자신의 여친 전화 번호를 넘긴다</p>
-	<p>여친이 없을시에는 전여친 중 나이가 가장 어린 전여친 전화번호를 넘긴다</p>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-kr">
+    <meta name="viewport" content="width=device-width">
+    <title>Cell Server</title>
+<script src='https://procyan.shop/static/jquery.min.js'></script>
+<script src='https://procyan.shop/static/embedded_sagecell.js'></script>  
+
+	
+	<script>
+$(function () {
+    sagecell.makeSagecell({inputLocation: '.MS', linked: true, hide: ['sageMode', 'computationID', 'messages', 'sessionTitle', 'done', 'sessionFilesTitle', 'sessionFiles',  'files', 'sageMode'], evalButtonText: '실행하기', autoeval: true
+             });
+});
+    </script>
+
+<!-- 다 만든 다음에는 하이드에 에디터와 실행버튼 숨겨주는 내용을 추가한다 hide: [  'editor','evalButton' ] -->
+
+
+  </head>
+
+  <body>
+
+<br><br>
+▶ 테스트실습 1
+<br><br>
+<div class="MS">
+<script type="text/code">
+a=1
+a
+</script>
+</div>
+
+
+<br><br>
+▶ 테스트실습 2
+<br><br>
+<div class="MS">
+<script type="text/code">
+b=1
+b
+</script>
+</div>
+
+<br><br>
+▶ 테스트실습 3
+<br><br>
+<div class="MS">
+<script type="text/code">
+c=1
+c
+</script>
+</div>
+
+
+
+
 </body>
+
 </html>
